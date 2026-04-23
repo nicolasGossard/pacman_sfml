@@ -1,0 +1,30 @@
+# ===== Compilation C =====
+*.o          # fichiers objets
+*.out        # exécutable Linux par défaut
+*.exe        # exécutable Windows
+*.a          # librairies statiques
+*.so         # librairies partagées Linux
+*.dll        # librairies Windows
+
+# ===== Dossiers de build =====
+build/
+bin/
+dist/
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Logs =====
+*.log
+
+# ===== Fichiers temporaires =====
+*.tmp
+*.swp
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Xcode (si tu l’utilises) =====
+DerivedData/
+*.xcworkspace
+*.xcuserdata
